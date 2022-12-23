@@ -1,12 +1,12 @@
 
-default: Vorlage
+default: Rechteck
 
-Vorlage.o: Vorlage.c
-	gcc -c Vorlage.c -o Vorlage.o
+Rechteck.o: Rechteck.c
+	gcc -c Rechteck.c -o Rechteck.o
 
-Vorlage: Vorlage.o
-	gcc Vorlage.o -o Vorlage
+Rechteck: Rechteck.o
+	gcc Rechteck.o -o Rechteck
 
 clean:
-	-rm -f Vorlage.o
-	-rm -f Vorlage
+	-rm -f Rechteck.o
+	-rm -f Rechteck
