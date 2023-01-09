@@ -1,5 +1,5 @@
 // Gesucht ist der größte gemeinsame Teiler einer Zahl, auch Euklidscher Algorithmus genannt.
-// Rekursive Lösungsvariante.
+// Rekursive Lösungsvariante, d. h. die Funktion ruft sich solange selbst auf, bis x == y ist.
 
 #include<stdio.h>
 
@@ -21,7 +21,7 @@ int main() {
 
 	int x=0, y = 0;
 
-	printf("\n ----- Berechnung des ggT -----\n");
+	printf("\n ----- rekursive Berechnung des ggT -----\n");
 
 	printf("\n Bitte geben Sie einen Wert für x ein: ");
 	scanf("%d", &x);
