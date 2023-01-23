@@ -1,7 +1,9 @@
+// wie 03.06 (if-Abfrage)
+// Nach der Eingabe von Punkten, soll die Note ausgegeben werden.
+
 #include<stdio.h>
 
-int main()
-{
+int main() {
 
 	int N;
 	
@@ -11,6 +13,7 @@ int main()
 	printf("\n Ihre Note lautet: "); 
 	
 	switch(N) {
+		
 		case 10: printf("Sehr gut!\n");
 		break;
 
@@ -29,29 +32,11 @@ int main()
 		case 5: case 4: case 3: case 2: case 1: case 0: printf("Ungenügend!\n");
 		break;
 		
-		
-		/*case 5: printf("Ungenügend!\n");
-		break;
-
-		case 4: printf("Ungenügend!\n");
-		break;
-
-		case 3: printf("Ungenügend!\n");
-		break;
-
-		case 2: printf("Ungenügend!\n");
-		break;
-
-		case 1: printf("Ungenügend!\n");
-		break;
-
-		case 0: printf("Ungenügend!\n");
-		break;*/
-
 		default: printf("Das ist keine gültige Punktzahl, versuchen Sie es nochmal!\n");
 		break;
-		}
+	}
 
-		printf("\n");
-return 0;
+	printf("\n");
+
+	return 0;
 }

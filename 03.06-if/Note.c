@@ -1,7 +1,10 @@
+// Nach der Eingabe einer Punktzahl (max. 10) soll die Note als Text ausgegeben werden:
+// 10 - sehr gut, 9 - gut, 8 - befriedigend, 7 - ausreichend, 6 - mangelhaft, <6 - ungenügend
+
 #include<stdio.h>
 
-int main ()
-{
+int main () {
+
 	int Note;
 
 	printf("\n Bitte geben Sie Ihre Punktzahl ein (0-10): ");
@@ -21,6 +24,5 @@ int main ()
 
 	if(Note < 0 || Note > 10) printf("\n Das ist keine gültige Punktzahl!\n\n");
 
-
-return 0;
+	return 0;
 }

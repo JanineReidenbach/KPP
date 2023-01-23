@@ -6,7 +6,6 @@ int main() {
 	
 	float Zahl1, Zahl2;
 	
-	
 	printf("\n>>>>>>>>>> Zahlenvergleich <<<<<<<<<<\n");
 	printf("\n Bitte geben Sie die erste Zahl ein: ");
 	scanf("%f", &Zahl1);
@@ -24,7 +23,6 @@ int main() {
 
 	printf("\n\n");
 	printf("-----------------------------------------------\n\n");
-
 
 	return 0;
 

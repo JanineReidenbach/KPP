@@ -4,7 +4,7 @@
 
 int main() {
 
-	int x=0, y = 0;
+	int x = 0, y = 0;
 
 	printf("\n ----- Berechnung des ggT -----\n");
 
@@ -15,7 +15,7 @@ int main() {
 	scanf("%d", &y); 
 
 
-	while( x != y) {
+	while(x != y) {
 
 		if (x > y) {
 

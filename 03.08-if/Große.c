@@ -1,8 +1,10 @@
+// Lass den Benutzer drei unterschiedliche Zahlen eingeben.
+// Gib auf dem Bildschirm die Zahl aus, die am größten ist.
+
 #include<stdio.h>
 
-int main()
+int main() {
 
-{
 	int A, B, C;
 	printf("\n Bitte geben Sie drei Zahlen ein.\n\n Erste Zahl: ");
 	scanf("%d", &A);
@@ -23,5 +25,5 @@ int main()
 
 	printf("\n");
 
-return 0;
+	return 0;
 }

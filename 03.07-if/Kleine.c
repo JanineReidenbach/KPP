@@ -1,3 +1,6 @@
+// Lass den Benutzer drei unterschiediche Zahlen eingeben.
+// Gib auf dem Bildschirm die Zahl aus, die am kleinsten ist.
+
 #include<stdio.h>
 
 int main()
@@ -19,10 +22,9 @@ int main()
 
 	if(C < A && C < B) printf("\n %d ist die kleinste Zahl.\n", C);
 
-
 	// if(A == B || A == C || B == C) printf("\n Eine oder mehrere Zahlen sind doppelt, das Ergebnis ist nicht eindeutig.\n");
 
 	printf("\n");
 
-return 0;
+	return 0;
 }

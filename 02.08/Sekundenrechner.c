@@ -1,8 +1,9 @@
+// Nach der Eingabe von Sekunden soll angezeigt werden, wie viele Tage und (Rest-)Stunden, (Rest-)Minuten und (Rest-)Sekunden das sind.
+// Hinweis: Werte in der Ausgabe negativ: Vorzeichen wird im ersten Bit bestimmt, mit unsigned nur positive Werte 
 
 #include<stdio.h>
-int main()
-{
-	//int s;
+
+int main() {
 
  	int s, t = 24 * 60 * 60, h = 60 * 60, m = 60;	// Variablen können zeitgleich erstellt und definiert werden
 	
@@ -27,5 +28,5 @@ int main()
 	printf(" und %d Sekunden.",s3);
 	printf("\n\n");
 
-return 0;
+	return 0;
 }
