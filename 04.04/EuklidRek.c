@@ -29,22 +29,6 @@ int main() {
 	printf("\n Bitte geben Sie einen Wert für y ein: ");
 	scanf("%d", &y); 
 
-/*	while( x != y) {
-
-		if (x > y) {
-
-			x = x - y; 
-
-		}
-	       	
-		else {
-	
-			y = y - x;
-		
-		}	
-
-	}	
-*/
 	printf("\n Das Ergebnis für den ggT lautet: %d. \n\n", Euklid(x,y));
 
 	return 0;

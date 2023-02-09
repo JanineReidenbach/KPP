@@ -1,3 +1,8 @@
+// Schreibe ein Programm, dass die Fibonacci-Zahl f(n) ausgibt.
+// Die Fibonacci-Folge ist eine unendliche Folge von Zahlen, bei der sich jeweils die folgende Zahl durch Addition ihrer beiden vorherigen Zahlen ergibt.
+// Errechnet werden können sie mittels 1+2=3, 2+3=5, 3+5=8, 5+8=13 usw.
+// Die Formel lautet also F(n) = F(n-1) + F(n-2)
+
 #include<stdio.h>
 
 int main()

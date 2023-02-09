@@ -1,4 +1,5 @@
-// Der Benutzer soll eine Ziffer für einen Tag eingeben und den Tagnamen ausgegeben bekommen, z. B. für 1 -> Montag etc. Speichere die Tagesbezeichnungen in einem Array.
+// Der Benutzer soll eine Ziffer für einen Tag eingeben und den Tagnamen ausgegeben bekommen, 
+// z. B. für 1 -> Montag etc. Speichere die Tagesbezeichnungen in einem Array.
 
 #include<stdio.h>
 #include<string.h>
@@ -27,10 +28,7 @@ int main() {
 
 	}
 
-	else {
-		printf("\n Bitte geben Sie eine gültige Zahl ein.\n");
-
-	}
+	else printf("\n Bitte geben Sie eine gültige Zahl ein.\n");
 
 	return 0;
 }

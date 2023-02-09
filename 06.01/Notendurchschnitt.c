@@ -1,4 +1,6 @@
-// Schreibe ein Programm, dass den Benutzer auffordert, zehn Schulnoten als Kommazahl einzugeben. Diese Zahlen sollen in einem Array zwischengespeichert werden.
+// Schreibe ein Programm, dass den Benutzer auffordert, zehn Schulnoten als Kommazahl einzugeben. 
+// Diese Zahlen sollen in einem Array zwischengespeichert werden.
+// Im Anschluss berechnet das Programm den Durchschnitt, welcher am Bildschirm ausgegeben werden soll.
 
 #include<stdio.h>
 

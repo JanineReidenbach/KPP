@@ -1,9 +1,8 @@
 // Getraenke Automat V0.3
 
 #include<stdio.h>
-int main()
+int main() {
 
-{
 	int Auswahl = 0, Anzahl = 0;
 	float Warenwert = 0, Einwurf = 0, Einzelpreis = 0;
 
@@ -16,11 +15,9 @@ int main()
 	printf("\n Geben Sie 1, 2 oder 3 ein: ");
 	scanf("%d", &Auswahl);
 
-	if(Auswahl < 1 || Auswahl > 3) {
-		while(Auswahl < 1 || Auswahl > 3) {
-			printf("\n Geben Sie bitte eine Zahl zwischen 1 - 3 an! Wie lautet Ihre Wahl?: ");
-			scanf("%d", &Auswahl);	
-		}
+	while(Auswahl < 1 || Auswahl > 3) {
+		printf("\n Geben Sie bitte eine Zahl zwischen 1 - 3 an! Wie lautet Ihre Wahl?: ");
+		scanf("%d", &Auswahl);	
 	}
         
 	if(Auswahl > 0 && Auswahl < 4) {
@@ -33,6 +30,7 @@ int main()
 			case 3: Einzelpreis = 2;
 			break;
 		}
+
 		printf("\n -------------------------------------------------- \n");
        		printf("\n >>>>> Mengenauswahl <<<<<\n");
 
@@ -54,9 +52,7 @@ int main()
 
 			}
 			
-			else {
-				printf("\n Falscher Einwurf!\n");
-			}
+			else printf("\n Falscher Einwurf!\n");
 
 			if(Warenwert <= 0) {
 				printf("\n Vielen Dank! \n");
@@ -64,7 +60,7 @@ int main()
 				printf("\n -------------------------------------------------- \n");
 				printf("\n >>>>> Flaschenausgabe <<<<< \n");
 				for(int i = 1; i <= Anzahl; i++) {
-					printf("\n Bitte entnehmen Sie Getränk %i von %d! \n", i, Anzahl);
+					printf("\n Bitte entnehmen Sie Getränk %d von %d! \n", i, Anzahl);
 				}
 
 			}
